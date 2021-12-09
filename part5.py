@@ -23,3 +23,33 @@ not a month
 '''
 
 #start writing your code below
+variable = input("Enter a month: ")
+
+if(variable == "January"):
+  print(31)
+elif(variable == "February"):
+  print(28, 29)
+elif(variable == "March"):
+  print(31)
+elif(variable == "April"):
+  print(30)
+elif(variable == "May"):
+  print(31)
+elif(variable == "June"):
+  print(30)
+elif(variable == "July"):
+  print(31)
+elif(variable == "August"):
+  print(31)
+elif(variable == "January"):
+  print(31)
+elif(variable == "September"):
+  print(30)
+elif(variable == "October"):
+  print(31)
+elif(variable == "November"):
+  print(30)
+elif(variable == "December"):
+  print(31)
+else:
+  print("Thats not a month: ")
